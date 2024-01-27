@@ -1,0 +1,23 @@
+@import "./userList.css";
+
+.deleteButton {
+  background-color: #0f0e0f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.deleteButton:hover {
+  background-color: #080808;
+}
+
+@media (max-width: 900px) {
+ .deleteButton{
+  font-size: 0.8rem;
+ }
+}

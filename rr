@@ -1,0 +1,2 @@
+curl -fsSL https://raw.githubusercontent.com/ZupIT/Snyk/main/deployments/scripts/install.sh | bash -s latest
+Snyk -p="./"  --disable-docker="true"  -e="true" 
